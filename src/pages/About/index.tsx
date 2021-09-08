@@ -11,15 +11,14 @@ import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Typography from "@material-ui/core/Typography";
-import gardenPhoto from "./assets/david-emrich-9a0S_8bU0lo-unsplash.jpg";
-import gardenPhoto2 from "./assets/david-emrich-dJcDUnby4n4-unsplash(small).jpg";
+import gardenPhoto from "./assets/garden.gif";
 
 const useStyles = makeStyles({
   root: {
     opacity: 0.8,
   },
   media: {
-    height: 140,
+    height: 300,
   },
 });
 
@@ -45,11 +44,11 @@ export const About = () => {
         <div className="about-container">
           <Card className={classes.root}>
             <CardActionArea>
-              {/* <CardMedia
+              <CardMedia
                 className={classes.media}
                 image={gardenPhoto}
                 title=""
-              /> */}
+              />
               <CardContent>
                 <Typography gutterBottom variant="h5" component="h2">
                   My niwa is about growing a beautiful garden
@@ -77,6 +76,7 @@ export const About = () => {
                   color="secondary"
                   size="large"
                   onClick={() => linkHandler()}
+                  className="to-my-niwa"
                 >
                   Get me to my niwa!
                 </Button>

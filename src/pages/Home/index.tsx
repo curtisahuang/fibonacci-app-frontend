@@ -4,6 +4,7 @@ import { useHistory } from "react-router";
 import { SignIn } from "../../components/SignIn";
 import { useUserState } from "../../store/user/useUserState";
 import { ReactComponent as Niwa } from "./assets/niwa.svg";
+import { ReactComponent as MyNiwaLogo } from "../../components/Header/assets/myniwa.svg";
 import "./home.css";
 
 export const Home = () => {
@@ -34,6 +35,7 @@ export const Home = () => {
     >
       <div className="splash-page">
         <div className="ni-wa-container">
+          <MyNiwaLogo className="my-niwa-logo" />
           <Niwa className="ni-wa-character" />
           <h1 className="ni-wa">ni•wa</h1>
           <h3 className="ni-wa-definition">a garden or courtyard</h3>

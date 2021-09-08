@@ -1,6 +1,5 @@
 .info-page {
   background-color: #6ac697;
-  background-image: url("./assets/david-emrich-dJcDUnby4n4-unsplash(small).jpg");
 }
 
 .about-page {
@@ -11,10 +10,7 @@
   min-height: 100vh;
 }
 
-.about-container {
-  justify-content: center;
-}
-
-.to-niwa {
+.to-my-niwa {
   margin: auto;
+  margin-bottom: 2rem;
 }
